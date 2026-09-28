@@ -1,6 +1,26 @@
 This is the README for my Optimization Module in DCS340.
 This file includes information about each of the programs included in this repo, as well as short a short reflection on the process of creating each program.
 
+## Programs
+
+| Notebook | Methods | Problem |
+|---|---|---|
+| `ClassicOptDemo.ipynb` | Guess and check, gradient ascent | Maximize f(x) = 4 − (x − 2)² |
+| `Bisection_Newtons_demo.ipynb` | Bisection, Newton's method, multi-start Newton's method | Find maxima by solving f'(x) = 0, including a wavy function with many local peaks |
+| `2DInputs.ipynb` | Nelder-Mead, gradient descent, Newton's method (with the Hessian) | Minimize f(x, y) = (x − 2)² − xy + (y − 3)² |
+
+## How to run
+
+The notebooks need Python 3 with `numpy`, `matplotlib`, and `scipy` (`scipy` is only used for Nelder-Mead in `2DInputs.ipynb`).
+
+- **VS Code:** clone the repo, open a notebook, pick a Python kernel, and click **Run All**.
+- **Google Colab:** open a notebook from GitHub with **File → Open notebook → GitHub** and paste this repo's URL.
+
+```bash
+git clone https://github.com/LiamBaron5/DCS340_OptimizationModule.git
+pip install numpy matplotlib scipy
+```
+
 ---------- Reflections ----------
 ## ClassicOptDemo.ipynb — Guess and Check & Gradient Ascent
 
