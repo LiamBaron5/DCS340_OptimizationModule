@@ -46,3 +46,7 @@ Comparing three methods on the same problem taught me that each has tradeoffs:
 - **Newton's method** was the most efficient. Using the gradient and the Hessian matrix, it jumped to the exact minimum in one iteration, because the function is quadratic. The cost is that it needs both first and second derivatives, which would be much harder to get for a complicated function.
 
 Overall, this program showed me that there is no single best optimization method. The right choice depends on how much you know about the function (whether you have derivatives), how accurate you need to be, and how much computation you can afford.
+
+---
+
+This project is part of my portfolio: **https://LiamBaron5.github.io**
